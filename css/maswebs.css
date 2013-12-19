@@ -1,0 +1,50 @@
+@font-face {
+	font-family: 'GoodDog';
+	/*font-style: normal;
+	font-weight: normal;
+	src: local("?"), url("/../fonts/GoodDog.otf") format("otf"), url("/../fonts/GoodDog.otf") format("truetype");*/
+src: url('../fonts/GoodDog.otf') format("opentype");
+}
+
+.container{
+
+	background-color: #ff7c80;
+}
+
+.img-circle{
+
+	border:5px solid #D44647;
+	-moz-border-radius: 5px solid #D44647;;
+	/*para Safari y Chrome*/
+	-webkit-border-radius: 5px solid #D44647;;
+	/* para Opera */
+	border-radius: 5px solid #D44647;;
+	margin-bottom: 5px;
+
+
+}
+
+
+.navbar-inverse {
+	background-color: #FF7C80;
+	border-color: #FF7C80;
+}
+
+#div_boton_atras{
+
+	background-image:url("../images/atras_arrow.png")!important;
+	background-repeat: no-repeat;
+	width: 100px;
+	height:60px;
+}
+
+
+footer{text-align:center;}
+
+.logomovil{
+.visible-sm;
+
+}
+#botonatras{
+	background-image: url('images/atras_arrow.png');
+}
